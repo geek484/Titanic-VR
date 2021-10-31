@@ -47,7 +47,7 @@ public class AddYaxisText : MonoBehaviour {
     GameObject parChPrefab;
 
     // Use this for initialization
-    void Start()
+    public void Start()
     {
         if (transform.parent.parent.name == "PlottingData")
         {
